@@ -99,11 +99,17 @@ header #branding h1{
     font-weight: 200;
 }
 
+header #branding a{
+    text-decoration: none;
+    color: #FFF;
+}
+
 header nav{
     float: right;
     margin-top: 10px;
 }
-header a {
+
+header li a {
     color: #FFF;
     text-decoration: none;
     text-transform: uppercase;
@@ -263,7 +269,6 @@ aside#quote-form{
     padding: 20px;
     /* color: #FFF; */
     margin-bottom: 20px;
-    margin-left: 10px;
 }
 
 /* contact us */
@@ -273,4 +278,56 @@ aside#quote-form{
 
 #contact-form .input-fields-form{
     width: 50%;
+}
+
+@media(max-width: 1125px){
+    #team .member-profile{
+        width: 30%;
+        margin: 0 60px;
+    }
+}
+
+@media(max-width: 850px){
+    header #branding,
+    header nav,
+    header li,
+    #boxes .box, 
+    #newsletter form,
+    #newsletter h1,
+    #newsletter .button_1,
+    #newsletter input[type="email"],
+    #our-story #main h2, #our-story #main p,
+    #team .member-profile, 
+    #services,
+    #services #services-list,
+    aside#quote-form{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    aside#quote-form{
+        padding: 0;
+    }
+
+    #jumbotron h1{
+        font-size: 3em;
+        margin-top: 40px;
+    }
+
+    header li a{
+        font-size: .75em;
+    }
+
+    header nav{
+        margin-bottom: 20px;
+    }
+
+    #newsletter .button_1{
+        margin-top: 20px;
+    }
+
+    aside#quote-form .button_1{
+        margin-bottom: 20px;
+    }
 }

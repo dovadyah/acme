@@ -1,0 +1,276 @@
+body{
+    font: 15px/1.5 "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Global */
+.container{
+   width: 80%; 
+   margin: auto;
+   overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0; 
+}
+
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    background: #000;
+    padding: 20px;
+    color: #FFF;
+}
+
+.button_1{
+    height: 27px;
+    background: transparent;
+    border: 2px solid #FFF;
+    border-radius: 50px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.button_1:hover{
+    background: #FFF;
+    color: #35424a;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.form-field{
+    border: transparent;
+    border-bottom: 1px solid #FFF;
+    border-radius: 0;
+    background: transparent;
+}
+
+.dark{
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #FFF;
+    background: #35424a;
+}
+
+.input-fields-form{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.input-fields-form:focus{
+    border: transparent;
+    border-bottom: 1px solid #FFF;
+    border-radius: 0;
+    background: transparent;
+    color: #FFF;
+    outline: none;
+    text-align: center;
+}
+
+.button_1_marg{
+    margin-top: 20px;
+    width: 50%;
+}
+
+/* Header */
+header{
+    background: #000000;
+    color: #FFF;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+    font-weight: 200;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header a {
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header .highlight, header .current a{
+    color: #E8491D;
+    font-weight: 600;
+}
+
+header a:hover{
+    color: #CCC;
+    font-weight: 600;
+}
+
+/* showcase or jumbotron*/
+#jumbotron{
+    min-height: 400px;
+    padding: 20px;
+    background: url(../img/showcase.jpg) no-repeat 0 -400px;
+    text-align: center;
+    color: #FFF;
+}
+
+#jumbotron h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+#jumbotron p{
+    font-size: 1.33em;
+}
+
+/* newsletter */
+#newsletter{
+    padding: 15px;
+    color: #FFF;
+    background: #000;
+}
+
+#newsletter h1{
+    font-size: 1.2em;
+    margin: 0;
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 1.33em;
+    width: 250px;
+}
+
+/* boxes */
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+
+/* about us page | Our Story */
+#our-story {
+    margin-top: 40px;
+}
+
+#our-story #main h2{
+    width: 50%;
+    float: left;
+    margin: 230px 0;
+}
+
+#our-story #main p{
+    width: 50%;
+    float: right;
+    text-align: justify;
+}
+
+/* about us page | Our Story */
+#our-mission{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#our-mission #mission-main h1{
+    margin: 0;
+    padding: 25px;
+    font-size: 2em;
+}
+
+#our-mission #mission-main h3{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* team members */
+#team {
+    text-align: center;
+}
+
+#team #team-list{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#team .member-profile{
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+
+#team .member-profile img{
+    width: 200px;
+}
+
+/* services */
+
+#services{
+    margin-top: 20px;
+}
+
+aside#quote-form{
+    width: 30%;
+    margin-top: 10px;
+    float: right;
+}
+
+#services-list{
+    width: 60%;
+    margin-right: auto;
+    float: left;
+}
+
+#services #services-list .service-item{
+    border: 1px ridge #35424a;
+    /* background: #35424a; */
+    padding: 20px;
+    /* color: #FFF; */
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+/* contact us */
+#contact-form{
+    text-align: center;
+}
+
+#contact-form .input-fields-form{
+    width: 50%;
+}
